@@ -1,0 +1,15 @@
+{
+  "short_name": "PW Flap",
+  "name": "Progressive Web Flap",
+  "icons": [
+    {
+      "src":"img/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#121212",
+  "theme_color": "#00699a",
+  "display": "standalone"
+}

@@ -1,0 +1,75 @@
+<ion-view title="Citas" id="page5" ng-init="tab=1">
+  <ion-content padding="true" class="has-header">
+    <h1 id="citas-heading8" style="color:#000000;font-weight:300;">Nueva Cita</h1>
+    <div id="citas-container9" ng-show="tab==1">
+      <form id="citas-form10" class="list">
+        <ion-item class="item-icon-left" id="citas-list-item21">
+          <i class="icon ion-briefcase"></i>Datos de cliente</ion-item>
+        <label class="item item-input" id="citas-input14">
+          <span class="input-label">Fecha Visita</span>
+          <input type="date" placeholder="">
+        </label>
+        <label class="item item-input" id="citas-input26">
+          <span class="input-label">Apellidos</span>
+          <input type="text" placeholder="">
+        </label>
+        <label class="item item-input" id="citas-input27">
+          <span class="input-label">Nombres</span>
+          <input type="text" placeholder="">
+        </label>
+        <label class="item item-input" id="citas-input28">
+          <span class="input-label">Fecha de Nacimiento</span>
+          <input type="date" placeholder="">
+        </label>
+        <label class="item item-input" id="citas-input24">
+          <span class="input-label">Telefono</span>
+          <input type="text" placeholder="">
+        </label>
+        <button id="citas-button46" class="button button-positive button-block">Guardar</button>
+        <ion-item class="item-icon-left" id="citas-list-item22">
+          <i class="icon ion-ios-lightbulb"></i>Crear Propuestas</ion-item>
+        <label class="item item-select" id="citas-select1">
+          <span class="input-label">Ramo</span>
+          <select>
+            <option>Salud</option>
+            <option>Vida</option>
+            <option>Inversiones</option>
+            <option>Ramos Generales</option>
+            <option></option>
+          </select>
+        </label>
+        <label class="item item-select" id="citas-select2">
+          <span class="input-label">Compañia</span>
+          <select>
+            <option>Integra</option>
+            <option>Rimac</option>
+            <option>Pacifico</option>
+          </select>
+        </label>
+        <label class="item item-select" id="citas-select3">
+          <span class="input-label">Producto</span>
+          <select>
+            <option>Primario</option>
+            <option>Secundario</option>
+          </select>
+        </label>
+        <label class="item item-select" id="citas-select5">
+          <span class="input-label">Interes</span>
+          <select>
+            <option>Muy Interesado</option>
+            <option>Interesado</option>
+            <option>Interesado en el futuro</option>
+            <option>No interesado</option>
+          </select>
+        </label>
+        <label class="item item-input" id="citas-textarea2">
+          <span class="input-label">Observacion</span><textarea placeholder=""></textarea></label>
+        <button id="citas-button47" class="button button-positive button-block">Guardar Propuesta</button>
+        <ion-item class="item-icon-left" id="citas-list-item23">
+          <i class="icon ion-ionic"></i>Lista de Propuestas</ion-item>
+        <ion-item id="citas-list-item24">Propuesta Salud</ion-item>
+        <ion-item id="citas-list-item25">Propuesta Vida</ion-item>
+      </form>
+    </div>
+  </ion-content>
+</ion-view>
